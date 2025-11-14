@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-bio-based-hydrogel-coatings-for-shoreline-oil-spill-mitigation",
+          title: 'Bio-based Hydrogel Coatings for Shoreline Oil Spill Mitigation',
+          description: "Developing alginate- and cellulose nanocrystal-based coatings to prevent shoreline oiling and enhance in situ biodegradation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/shoreline-coatings/";
             },},{
         id: 'social-email',
         title: 'email',
