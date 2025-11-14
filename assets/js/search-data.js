@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-green-and-responsive-surface-washing-agents-for-oiled-shorelines",
+          title: 'Green and Responsive Surface Washing Agents for Oiled Shorelines',
+          description: "Designing eco-friendly, stimulus-responsive washing fluids for efficient oil removal and minimal ecotoxicity.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/green-washing-agents/";
             },},{id: "projects-bio-based-hydrogel-coatings-for-shoreline-oil-spill-mitigation",
           title: 'Bio-based Hydrogel Coatings for Shoreline Oil Spill Mitigation',
           description: "Developing alginate- and cellulose nanocrystal-based coatings to prevent shoreline oiling and enhance in situ biodegradation.",
