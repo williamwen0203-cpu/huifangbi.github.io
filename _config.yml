@@ -2,27 +2,40 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# 网站基本信息
+title: "Huifang Bi"
+description: >-
+  PhD Candidate in Civil Engineering at Concordia University. Research on contaminant fate and transport,
+  shoreline oil spill response, and sustainable remediation technologies.
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: "https://your-username.github.io"   # ← 改成你 GitHub Pages 的真实地址
+baseurl: ""                              # 如果仓库名是 your-username.github.io 留空；否则写 "/repo-name"
+
+# 作者信息（主页左侧/底部用）
+author:
+  name: "Huifang Bi"
+  email: "huifang.bi@mail.concordia.ca"
+  avatar: "assets/img/huifang.jpg"       # 头像文件名，记得上传
+  position: "PhD Candidate in Civil and Environmental Engineering"
+  affiliation: "Concordia University, Montréal, Canada"
+  location: "Montréal, Canada"
+  scholar: "https://scholar.google.com/citations?user=Rj77LcUAAAAJ&hl=en"
+  researchgate: "https://www.researchgate.net/profile/Huifang-Bi"
+  linkedin: "https://www.linkedin.com/in/huifang-bi-234a02299"
+
+# 导航栏（可以按喜好删减/调整顺序）
+navbar:
+  links:
+    - title: "Home"
+      url: /
+    - title: "Research"
+      url: /research/
+    - title: "Publications"
+      url: /publications/
+    - title: "Talks"
+      url: /talks/
+    - title: "CV"
+      url: /cv/
 
 # -----------------------------------------------------------------------------
 # Theme
