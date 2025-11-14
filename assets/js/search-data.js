@@ -501,6 +501,11 @@ ninja.data = [{
           description: "Designing eco-friendly, stimulus-responsive washing fluids for efficient oil removal and minimal ecotoxicity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/green-washing-agents/";
+            },},{id: "projects-oil-transport-pathways-and-processes-in-shoreline-and-subsurface-systems",
+          title: 'Oil Transport Pathways and Processes in Shoreline and Subsurface Systems',
+          description: "Understanding vertical infiltration, resuspension, and oil–particle interactions to improve spill response strategies.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/oil-transport-shorelines/";
             },},{id: "projects-bio-based-hydrogel-coatings-for-shoreline-oil-spill-mitigation",
           title: 'Bio-based Hydrogel Coatings for Shoreline Oil Spill Mitigation',
           description: "Developing alginate- and cellulose nanocrystal-based coatings to prevent shoreline oiling and enhance in situ biodegradation.",
